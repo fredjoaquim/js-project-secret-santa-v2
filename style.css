@@ -16,18 +16,45 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--color-primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.main-content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* CONTENT — cresce e empurra o footer para o final */
+.content {
+  flex: 1;                 /* ESSENCIAL */
+  display: flex;
+  justify-content: center; /* centraliza o conteúdo do projeto */
+  align-items: center;
+  flex-direction: column;
+}
+
+/* FOOTER MINIMAL */
+.footer-minimal {
+  width: 100%;
+  padding: 20px 0;
+  background: transparent; /* sem cor por padrão */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  font-size: 18px;  /* ← pode ajustar */
+  color: #333;      /* ← pode ajustar a cor */
+}
+
+.footer-logo {
+  width: 200px;     /* ← pode ajustar o tamanho */
+  height: auto;
 }
 
 /* Banner */
@@ -105,7 +132,7 @@ body {
 }
 
 /* Estilos de botão */
-button {
+.button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -126,7 +153,7 @@ button {
 }
 
 /* Listas */
-ul {
+.ul {
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
