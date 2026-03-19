@@ -1,26 +1,20 @@
-# 🎁 Challenge Amigo Secreto 2
+# Secret Santa v2
 
-Segunda versão do projeto de amigo secreto com melhorias no estilo e layout visual.
+## 🚀 Live Demo
+[🔗 Acessar Projeto](https://fredjoaquim.github.io/js-project-secret-santa-v2/)
 
-## 🚀 Demonstração
-🔗 [Acesse o projeto](https://fredjoaquim.github.io/Challenge-amigo-secreto-2/)
+## 📌 Sobre
+Versão aprimorada do sistema de sorteio com melhorias de lógica e experiência.
 
-## 🧠 Funcionalidades
-- Mesma lógica do primeiro, com visual aprimorado  
-- Responsividade e refinamento visual  
+## 🛠️ Tecnologias
+- JavaScript
+- HTML5
+- CSS3
 
-## 🛠️ Tecnologias utilizadas
-- HTML5  
-- CSS3  
-- JavaScript  
+## 🎯 Melhorias
+- Código mais organizado
+- UX aprimorada
+- Lógica otimizada
 
-## 👨‍💻 Autor
-**Fred Joaquim dos Santos**  
-📧 [fredjoaquimprogramador@gmail.com](mailto:fredjoaquimprogramador@gmail.com)  
-🐙 [GitHub](https://github.com/fredjoaquim)  
-💼 [LinkedIn](https://linkedin.com/in/fredjoaquim)
-
----
-
-## 📝 Licença
-Uso livre para fins educacionais.
+## 📷 Preview
+![Preview](./assets/preview.png)
