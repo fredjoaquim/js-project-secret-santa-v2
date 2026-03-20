@@ -15,6 +15,3 @@ Versão aprimorada do sistema de sorteio com melhorias de lógica e experiência
 - Código mais organizado
 - UX aprimorada
 - Lógica otimizada
-
-## 📷 Preview
-![Preview](./assets/preview.png)
